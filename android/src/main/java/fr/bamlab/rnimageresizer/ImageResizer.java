@@ -289,6 +289,7 @@ class ImageResizer {
 
         // Rotate if necessary
         // Bitmap rotatedImage = ImageResizer.rotateImage(scaledImage, rotation);
+           Bitmap rotatedImage = scaledImage;
 
         if (scaledImage != rotatedImage) {
             scaledImage.recycle();
